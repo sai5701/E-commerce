@@ -2,16 +2,17 @@
 
 A fully responsive **E-Commerce** web application built with **Next.js, Tailwind CSS, Zustand (State Management), and FakeStore API** for product listings.  
 
----
 
-##  Features
+## Features
 
-Modern UI with **Next.js & Tailwind CSS**  
- **Product Listing** with Search & Filters  
- **Cart Management** using Zustand  
- **Skeleton Loaders** for Better UX  
- **Confetti Animation** on Order Success  
- **Responsive Design** (Mobile-Friendly)  
+- Modern UI with Next.js & Tailwind CSS  
+- Product Listing with Search & Filters  
+- Cart Management using Zustand  
+- Skeleton Loaders for Better UX  
+- Confetti Animation on Order Success  
+- Responsive Design (Mobile-Friendly)  
+- Optimized Performance & SEO  
+- Dynamic Routing for Product Details 
 
 
 
@@ -24,8 +25,7 @@ Modern UI with **Next.js & Tailwind CSS**
 - **API:** FakeStore API (https://fakestoreapi.com/)  
 - **Icons:** Lucide React  
 - **Animations:** CSS Transitions, Confetti Effect  
-
-
+- **Deployment**: Vercel
 
 ##  Installation
 
