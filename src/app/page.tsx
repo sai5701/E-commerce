@@ -2,11 +2,16 @@
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import React from "react";
 
+interface Product {
+  title: string;
+  link: string;
+  thumbnail: string;
+}
 export default function HeroParallaxDemo() {
   return <HeroParallax products={products} />;
 }
 
-export const products = [
+export const products: Product[] = [
   {
     title: "Summer Collection",
     link: "https://yourfashionstore.com/summer-collection",
