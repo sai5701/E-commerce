@@ -75,7 +75,7 @@ export default function ProductsPage() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
             {isLoading
-              ? // Render loading skeletons
+              ?  
                 Array.from({ length: 8 }).map((_, i) => (
                   <Card key={i} className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-white">
                     <CardHeader className="relative w-full h-[220px]">
@@ -91,7 +91,7 @@ export default function ProductsPage() {
                     </CardFooter>
                   </Card>
                 ))
-              : // Render actual products
+              :  
                 filteredProducts.map((product) => (
                   <div key={product.id} className="w-full">
                     <Link href={`/products/${product.id}`} className="block">

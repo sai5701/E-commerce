@@ -39,7 +39,6 @@ export default function CartPage() {
         </div>
       ) : (
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {/* Left Section - Cart Items */}
           <div className="lg:col-span-2 space-y-6 overflow-y-auto h-[80vh] p-4">
             {items.map((item) => (
               <Card key={item.id} className="grid grid-cols-1 lg:grid-cols-3 items-center p-4 shadow-md rounded-lg border border-gray-200">

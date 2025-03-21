@@ -6,7 +6,7 @@ interface CartState {
   addToCart: (product: { id: string; title: string; price: number; image: string }) => void;
   removeFromCart: (id: string) => void;
   updateQuantity: (id: string, quantity: number) => void;
-  clearCart: () => void;  // Add this function
+  clearCart: () => void;   
 }
 
 export const useCartStore = create<CartState>((set) => ({
