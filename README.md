@@ -14,10 +14,6 @@ A fully responsive **E-Commerce** web application built with **Next.js, Tailwind
 - Optimized Performance & SEO  
 - Dynamic Routing for Product Details 
 
-
-
-
-
 ##  Tech Stack
 
 - **Frontend:** Next.js 14, React 18, Tailwind CSS  
